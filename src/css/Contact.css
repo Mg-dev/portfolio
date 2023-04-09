@@ -1,0 +1,122 @@
+.laravelLogo{
+    width: 2.5rem;
+    align-self: flex-end;
+    position: absolute;
+    top:1.2rem;
+    right: 2rem;
+}
+
+.go{
+    opacity: 0;
+}
+.contact{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.map-container{
+    align-self: center;
+    display: flex;
+    width: 719px;
+    height: 333px;
+    /* overflow: hidden; */
+    left: 442px;
+    top: 199px;
+}
+.map{
+    width: 519px;
+    height: 333px;
+    /* left: 442px;
+    top: 199px; */
+    border-radius: 33px;
+}
+
+.map-text{
+    width: 700px;
+    height: 556px;
+    color: #212121;
+    margin-left: -3rem;
+    z-index: 1000;
+    
+}
+.where-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.where-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+.message-container{
+    /* background-color: #212121; */
+    width: 400px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 9rem;
+}
+.message-header{
+    /* justify-self: flex-start; */
+    color:#212121;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    position: relative;
+    top:3rem;
+    left:1rem;
+}
+input{
+    background: none;
+    padding:1rem;
+    border:none;
+    border-bottom:1px black solid;
+}
+input:focus{
+    outline:none;
+}
+input::placeholder{
+    color:#212121;
+}
+
+.btn-container{
+   /* background-color: antiquewhite; */
+   color:#212121;
+   width: 200px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   position: relative;
+   top: 4rem;
+}
+.btn{
+    background-color: transparent;
+    /* background-color: red; */
+    height:2.5rem;
+}
+
+input{
+    caret-color: #212121;
+}

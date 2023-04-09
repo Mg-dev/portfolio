@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import 'animate.css';
+.home{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height:100vh;
+    position: relative;
+    background-color: #dedede;
+    color: #212121;
+    display: flex;
+}
+.tyt{
+    color: red;
+    text-shadow: 2px 2px 1px black;
+}
+.red{
+    color: red;
+}
+@keyframes glow {
+    50% {
+      text-shadow: 1px 1px 1px  red;
+    }
+  }
+
+/* for desktop */
+@media only screen and (min-width:769px) {
+    .home{
+        margin:0;
+        padding:0;
+        width: 100vw;
+        height:100vh;
+        position: relative;
+        background-color: #dedede;
+        color: #212121;
+        display: flex;
+    }
+    
+.welcome-text{
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
+    font-size:  70px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -2px;
+    /* background-color: red; */
+    margin-bottom: -2rem;
+}
+.text-container{
+    height: 100vh;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:0;
+    margin-left: 15%;
+    padding:0;
+}
+.home-img-container{
+    display:flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+h4{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    /* background-color: pink; */
+    letter-spacing: -0.015em;
+    margin-bottom: -8px;
+}
+h5{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    /* background-color: brown; */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+h5 a{
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    /* background-color: brown; */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+h5  a:hover{
+    color: red;
+}
+
+.position-text{
+    font-size: medium;
+}
+.fake-text{
+    color: #dfdfdf60;
+    font-size:1.3rem;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: -20px;
+    letter-spacing: -0.035em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.myFoto{
+    width: 388.92px;
+    height: 490.24px;
+    position:relative;
+    right: 3rem;
+    transform: scale(-1.2);
+}
+.laravelLogo{
+    width: 2.5rem;
+    align-self: flex-end;
+    position: absolute;
+    top:1.2rem;
+    right: 2rem;
+}
+.under-myFoto{
+    display: none;
+}
+}
+@media only screen and (max-width:440px) {
+    .home{
+        display: block;
+    }
+    .laravelLogo{
+        display: none;
+    }
+    .home-img-container{
+        position: relative;
+    }
+    .home-img-container .myFoto{
+        width: 160px;
+        height: 200px;
+        right: 0;
+        left: 3rem;
+    }
+    .text-container{
+        position: relative;
+        left: 2rem;
+    }
+    .text-container .welcome-text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 100%;
+        color: #000004;
+        margin:1rem 0;
+        letter-spacing: -0.05em;
+        padding:0;
+        font-family: "Quicksand";
+    }
+    .text-container h4{
+        font-weight: 600;
+        font-size: 24px;
+        font-family: "Quicksand";
+        letter-spacing: -0.015em;
+        width: 10rem;
+    }
+    .text-container .fake-text,.text-container h5{
+            display: none;
+    }
+    .under-myFoto .download{
+        margin-left: 2.1rem;
+        margin-bottom: -2rem;
+        font-family: "Quicksand";
+    }
+    .under-myFoto .fake-text{
+        margin-left: -.8rem;
+        margin-top: 2rem;
+        font-family: "Quicksand";
+    }
+}

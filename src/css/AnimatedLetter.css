@@ -1,0 +1,72 @@
+.text-animated_0{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_1{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_2{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: .9s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_3{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_4{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_5{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_6{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animated_7{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
