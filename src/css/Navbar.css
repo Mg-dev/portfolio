@@ -18,7 +18,9 @@
         font-family: "Quicksand";
         border-right:#ff0000 2px solid;
     }
-    
+    .tyt{
+        color: white;
+    }
     .sidebar a.active{
         -webkit-text-stroke-width: 1px;
         
@@ -56,9 +58,11 @@
         display: none;
     }
     .sidebar .menu-container {
+        width: 100vw;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin: 1.2rem;
+        box-sizing: border-box;
+        padding: 1rem;
     }
+    
 }

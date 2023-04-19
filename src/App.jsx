@@ -8,11 +8,15 @@ import Project from './pages/Project'
 import Contact from './pages/Contact'
 import './App.css'
 import Navbar from './components/Navbar'
+import Modal from './components/Modal'
+import { useGlobalContext } from './Context'
 
 function App() {
+  const {show} = useGlobalContext();
   return (
 
       <Router>
+        {show && <Modal />}
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />

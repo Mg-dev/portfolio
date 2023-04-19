@@ -3,35 +3,15 @@ import {Outlet, useLocation} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import "./css/Portfolio.css"
-const paths= [
-    {
-        name: "home",
-        value: 1
-    },
-    {
-        name: "about",
-        value: 2
-    },
-    {
-        name: "projects",
-        value: 3
-    },
-    {
-        name: "contact",
-        value: 4
-    },
-    
-]
+import Modal from  "./components/Modal"
+import { useGlobalContext } from './Context';
 const Portfolio = () => {
-    
+    const {show} = useGlobalContext();
     return (
         <div className='container'>
             <Navbar className="navbar"/>
-                    
-                    <Outlet/>
-                    
-               
-            {/* <Footer /> */}
+            {show && <Outlet/>}
+            
         </div>
     )
 }

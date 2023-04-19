@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import 'animate.css';
-.home{
+/* .home{
     margin:0;
     padding:0;
     width: 100vw;
     height:100vh;
     position: relative;
-    background-color: #dedede;
     color: #212121;
     display: flex;
-}
+} */
 .tyt{
     color: red;
     text-shadow: 2px 2px 1px black;
@@ -25,14 +24,13 @@
   }
 
 /* for desktop */
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:460px) {
     .home{
         margin:0;
         padding:0;
         width: 100vw;
         height:100vh;
         position: relative;
-        background-color: #dedede;
         color: #212121;
         display: flex;
     }
@@ -129,6 +127,11 @@ h5  a:hover{
 @media only screen and (max-width:440px) {
     .home{
         display: block;
+        width: 80vw;
+    }
+    .myFoto{
+        position: relative;
+        left: 2rem;
     }
     .laravelLogo{
         display: none;
@@ -149,7 +152,7 @@ h5  a:hover{
     .text-container .welcome-text{
         font-style: normal;
         font-weight: 600;
-        font-size: 72px;
+        font-size: 40px;
         line-height: 100%;
         color: #000004;
         margin:1rem 0;
@@ -158,23 +161,25 @@ h5  a:hover{
         font-family: "Quicksand";
     }
     .text-container h4{
-        font-weight: 600;
-        font-size: 24px;
+        font-style: normal;
         font-family: "Quicksand";
-        letter-spacing: -0.015em;
-        width: 10rem;
+        position: relative;
+        margin-bottom: 2rem;
     }
     .text-container .fake-text,.text-container h5{
             display: none;
     }
-    .under-myFoto .download{
+    .under-myFoto{
         margin-left: 2.1rem;
         margin-bottom: -2rem;
         font-family: "Quicksand";
     }
     .under-myFoto .fake-text{
-        margin-left: -.8rem;
-        margin-top: 2rem;
         font-family: "Quicksand";
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    .under-myFoto .download{
     }
 }

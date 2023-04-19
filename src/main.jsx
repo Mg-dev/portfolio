@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import 'animate.css'
-
+import {AppProvider} from './Context'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <AppProvider>
     <App />
+    </AppProvider>
   </React.StrictMode>,
 )
