@@ -61,9 +61,13 @@
         display: none;
     }
     .text-container{
+        display: flex;
+        flex-direction: column;
         width: 80vw;
+        justify-content: center;
     }
     p{
         text-align: justify;
     }
+    
 }

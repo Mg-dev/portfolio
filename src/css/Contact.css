@@ -124,10 +124,14 @@
     }
 }
 @media screen and (max-width: 460px) {
+    .laravelLogo{
+        display: none;
+    }
     .contact{
         width: auto;
     }
     .map-container{
+        margin-top: 1.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;

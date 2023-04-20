@@ -2,6 +2,7 @@ import map from '../assets/map.jpg'
 import laravelLogo from '../assets/laravel.svg'
 import {motion} from 'framer-motion'
 import '../css/Contact.css'
+import Footer from '../components/Footer'
 const Contact = () => {
     return (
         <div className="contact">
@@ -60,6 +61,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

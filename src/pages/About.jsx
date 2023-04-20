@@ -76,6 +76,9 @@ const About = () => {
             </div>
                 <motion.img variants={image} initial="hidden" animate="show"  class="aboutFoto" src={myFoto}/>
             </div>
+            <div>
+                <small style={{ padding:"1.2rem", textAlign: "center", display: "block" }}>Copyright © 2023 TYT. All rights reserved.</small>
+            </div>
         </div>
     )
 }

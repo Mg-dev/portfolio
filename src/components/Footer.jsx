@@ -2,7 +2,7 @@ import '../css/Footer.css'
 const Footer = () => {
     return (
         <footer>
-            <p>Footer</p>
+            <small>Copyright © 2023 TYT. All rights reserved.</small>
         </footer>
     )
 }

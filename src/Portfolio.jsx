@@ -11,7 +11,6 @@ const Portfolio = () => {
         <div className='container'>
             <Navbar className="navbar"/>
             {show && <Outlet/>}
-            
         </div>
     )
 }

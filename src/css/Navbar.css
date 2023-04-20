@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /* for desktop */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 460px) {
     nav{
         position: absolute;
         top:0;
@@ -52,7 +52,7 @@
 
 /* for mobile phone */
 
-@media only screen and (max-width:430px) {
+@media only screen and (max-width:460px) {
     .sidebar h3,.sidebar a,.sidebar .nav-links,.sidebar .social-icons{
         visibility: hidden;
         display: none;
@@ -61,8 +61,21 @@
         width: 100vw;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         box-sizing: border-box;
-        padding: 1rem;
+        padding:0 2rem;
     }
-    
+
+    .logo-text{
+        font-size:xx-large;
+        line-height: 90%;
+        padding:2rem 0;
+        margin: 0;
+        font-family: "Quicksand";
+    }
+    .humburger{
+        z-index: 100000;
+        color:white;
+       background-color: #212121;
+    }
 }
