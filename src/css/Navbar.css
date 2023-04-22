@@ -48,6 +48,9 @@
     .menu-container{
         display: none;
     }
+    .social-icons{
+        margin-bottom: 3rem;
+    }
 }
 
 /* for mobile phone */
@@ -65,13 +68,14 @@
         box-sizing: border-box;
         padding:0 2rem;
     }
-
+    
     .logo-text{
         font-size:xx-large;
         line-height: 90%;
         padding:2rem 0;
         margin: 0;
         font-family: "Quicksand";
+        color: #212121;
     }
     .humburger{
         z-index: 100000;

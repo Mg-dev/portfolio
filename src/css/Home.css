@@ -10,6 +10,9 @@
     color: #212121;
     display: flex;
 } */
+*{
+    box-sizing: border-box;
+}
 .tyt{
     color: red;
     text-shadow: 2px 2px 1px black;
@@ -47,12 +50,12 @@
 }
 .text-container{
     height: 100vh;
-    width: 50%;
+    width: 60%;
     display:flex;
     flex-direction: column;
     justify-content:center;
     margin:0;
-    margin-left: 15%;
+    left: 12rem;
     padding:0;
 }
 .home-img-container{
@@ -109,8 +112,8 @@ h5  a:hover{
 .myFoto{
     width: 388.92px;
     height: 490.24px;
-    position:relative;
-    right: 3rem;
+    position:absolute;
+    right: 15rem;
     transform: scale(-1.2);
 }
 .laravelLogo{
@@ -129,6 +132,7 @@ h5  a:hover{
     .home{
         display: block;
         width: 80vw;
+        color: #212121;
     }
     .myFoto{
         position: relative;
@@ -180,6 +184,16 @@ h5  a:hover{
         font-size: 13px;
         font-weight: 500;
         margin-top: 2rem;
+    }
+    h5 a{
+    
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        /* background-color: brown; */
+        letter-spacing: -0.015em;
+        color: #000000;
     }
     
 }

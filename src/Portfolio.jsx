@@ -1,7 +1,6 @@
 
 import {Outlet, useLocation} from 'react-router-dom'
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import "./css/Portfolio.css"
 import Modal from  "./components/Modal"
 import { useGlobalContext } from './Context';
@@ -10,7 +9,7 @@ const Portfolio = () => {
     return (
         <div className='container'>
             <Navbar className="navbar"/>
-            {show && <Outlet/>}
+            <Outlet/>
         </div>
     )
 }

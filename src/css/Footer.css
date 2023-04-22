@@ -1,11 +1,39 @@
-footer{
-    width: 100vw;
-    position: absolute;
-    text-align: center;
-    z-index: 0;
-    padding: .2rem;
-    box-sizing: border-box;
-    color: #212121aa;
-    font-weight: normal;
-    bottom:0;
+
+@media  screen and (min-width: 460px) {
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        padding: .5rem;
+        font-family: "Quicksand";
+        color: #212121;
+    }
+    
+    small{
+        display: block;
+        text-align: center;
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        padding: .5rem;
+        font-family: "Quicksand";
+        color: #212121;
+    }
+    
+    small{
+        display: block;
+        text-align: center;
+        font-size: .6rem;
+    }
 }
