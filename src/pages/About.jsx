@@ -104,8 +104,6 @@ const About = () => {
                             <motion.img variants={image} initial="hidden" animate="show"  class="aboutFoto" src={myFoto}/>
                         </div>
                     </div>
-                
-            <Footer />
         </div>
     )
 }
