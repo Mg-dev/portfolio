@@ -47,7 +47,7 @@ const About = () => {
                                     Education Background
                                 </h3>
                                 <p>
-                                I'm an undergraduated in Electronic Engineering field, have about two year of web development field and have been coding some laravel experience on real world projects with team and now I am ready to build modern Web Pages and Web App for clients.
+                                I'm an undergraduated in Electronic Engineering field, have about two years of web development field and have been coding some laravel experience on real world projects with team and now I am ready to build modern Web Pages and Web App for clients.
                                 </p>
                             </motion.div>
                             <motion.div variants={image} initial="hidden" animate="show" className="sub-text-container-reverse">
