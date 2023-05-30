@@ -1,0 +1,30 @@
+.project-container{
+    height: 100vh;
+    width: auto;
+    box-sizing: border-box;
+    background-color: #212121;
+}
+.project-container h1{
+    color: #212121;
+    
+}
+.project-box{
+    overflow-y: scroll;
+    height: 400px;
+    width:80%;
+    border-radius: 1.2rem;
+    background-color: pink;
+    padding:1rem;
+    scrollbar-width: auto;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;
+    box-sizing: border-box;
+    margin:0 auto;
+    
+}
+
+.project {
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 1rem;
+}
