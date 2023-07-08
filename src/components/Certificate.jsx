@@ -11,7 +11,7 @@ const Certificate = () => {
 
   return (
     <div className="certificate">
-      <a href='#'>👉  <strong style={{ color: '#212121' }} onClick={toggleModal}>My Certificates</strong></a>
+      <a href='#'>👉  <strong style={{animation:"glow 2500ms linear infinite 2000ms", color: "#212121"}} onClick={toggleModal}>My Certificates</strong></a>
     </div>
   )
 

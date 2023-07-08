@@ -10,7 +10,11 @@
     justify-content: center;
     z-index: 10000;
   }
-  
+  @keyframes glow {
+    50% {
+      text-shadow: 1px 1px 1px  red;
+    }
+  }
   .modal-content {
     background-color: #fff;
     padding: 20px;
