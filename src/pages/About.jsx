@@ -4,18 +4,21 @@ import '../css/About.css'
 import Footer from "../components/Footer"
 import {motion} from 'framer-motion'
 import {useGlobalContext} from '../Context'
+import Certificate from "../components/Certificate"
+
+import Accordion from "../components/Accordion"
+
 const About = () => {
-    const {show} = useGlobalContext();
-    console.log(show)
+    const {show,isOpen,setIsOpen,toggleModal} = useGlobalContext();
+    console.log(isOpen  )
     const skills = [
         "Html/css"
         ,"JavaScript"
-        ,"Php"
-        ,"MySQL"
-        ,"Laravel"
+        ,"Nodejs/Express"
+        ,"Php/laravel"
+        ,"MySQL/Mongodb"
         ,"React"
-        ,"Figma"
-        ,"Github"
+        ,"Git"
     ];
     const hobbies = [
         "Swimming"
@@ -38,7 +41,20 @@ const About = () => {
     return (
         <div className="about" style={show ? {display: "none"} : {display: "flex"}}>
             
-                
+            {
+                isOpen && (
+                        <div className="modal-overlay">
+                           
+                                <Accordion />
+                                <div class="modal-close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.} stroke="black" width="40" onClick={toggleModal}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </div>
+
+                        </div>
+                )
+            }
                     <div>
                         <div className="text-container">
                             
@@ -81,6 +97,8 @@ const About = () => {
                                     </ul>
                                 </motion.div>
                             </div>
+                            
+                            <Certificate />
                         </div>
                         <div className="about-img-container">
                             <div>
