@@ -9,7 +9,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Contact = () => {
     return (
         <div className="contact">
-            {/* <motion.img className="laravelLogo" src={laravelLogo}     whileHover={{ scale: 1.1 }}
+            {/* <motion.img className="laravelLogo" src={laravelLogo} whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}/> */}
 
     {/* laravel logo */}

@@ -132,7 +132,7 @@
         color: #212121;
     }
     .map-container{
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -143,7 +143,6 @@
         height: 80%;
         border-radius: 1.3rem;
         margin-left: 2rem;
-
     }
     .map-text{
         width: 80vw;
@@ -152,7 +151,8 @@
         opacity: 0;
     }
     .where-head{
-        margin-bottom:-1rem;
+        margin:0;
+        padding:0;
     }
     .message-container{
         /* background-color: #212121; */
