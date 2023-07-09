@@ -99,6 +99,7 @@ const About = () => {
                             </div>
                             
                             <Certificate />
+                            <small className="footer">Copyright © 2023 TYT. All rights reserved.</small>
                         </div>
                         <div className="about-img-container">
                             <div>

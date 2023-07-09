@@ -146,6 +146,7 @@
     }
     .map-text{
         width: 80vw;
+        margin-top: 1.5rem;
     }
     .go{
         opacity: 0;
@@ -154,15 +155,21 @@
         margin:0;
         padding:0;
     }
+    .where-text{
+        margin-top:1rem;
+        padding:0;
+    }
     .message-container{
         /* background-color: #212121; */
         /* width: 400px; */
-        bottom: 30px;
+        bottom: 25px;
         align-self: center;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
+        margin-top: 1rem;
+        right: .5em;
     }
 
     form{
@@ -208,4 +215,6 @@
     input{
         caret-color: #212121;
     }
+
+    
 }

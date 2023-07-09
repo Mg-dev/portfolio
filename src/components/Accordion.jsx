@@ -16,7 +16,7 @@ const cards = [
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     },
     {
-      header: "Backend development and APIs",
+      header: "Back End Development and APIs",
       image: backendApi,
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     },
